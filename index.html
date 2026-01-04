@@ -10,18 +10,14 @@
     <h1>The Legna Agency</h1>
     <p>To slay the Monstrosity, death to the angels.</p>
 
-    <!-- Button -->
     <button onclick="displayText()">The Magic Word™</button>
 
-    <!-- Text container -->
-    <div id="text-container"></div>
+    <p id="magic-word"></p>
 
-    <!-- JavaScript -->
     <script>
         function displayText() {
-            var newText = document.createElement("p");
-            newText.textContent = "pneumonoultramicroscopicsilicovolcanoconiosis";
-            document.getElementById("text-container").appendChild(newText);
+            document.getElementById("magic-word").textContent =
+                "pneumonoultramicroscopicsilicovolcanoconiosis";
         }
     </script>
 
