@@ -3,33 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Title</title>
+    <title>The Magic Word™</title>
 </head>
 <body>
-    <!-- Your visible content goes here -->
+
     <h1>The Legna Agency</h1>
-    <p>To slay the Monstrocity, death to the angels.</p>
-</body>
-</html>
+    <p>To slay the Monstrosity, death to the angels.</p>
 
+    <!-- Button -->
+    <button onclick="displayText()">The Magic Word™</button>
 
+    <!-- Text container -->
+    <div id="text-container"></div>
 
-    <title>The Magic Word&trade;/title>
-</head>
-<body>
-
-    <!-- HTML: The Button and Text Container -->
-    <button onclick="displayText()">The Magic Word&trade;</button>
-    <div id="pneumonoultramicroscopicsilicovolcanoconiosis"></div>
-
-    <!-- JavaScript: The logic -->
+    <!-- JavaScript -->
     <script>
         function displayText() {
-            // Create a new paragraph element with the text
             var newText = document.createElement("p");
-            newText.textContent = "pneumonoultramicroscopicsilicovolcanoconiosis"; // The text you want to print
-
-            // Append the new text to the container div
+            newText.textContent = "pneumonoultramicroscopicsilicovolcanoconiosis";
             document.getElementById("text-container").appendChild(newText);
         }
     </script>
