@@ -19,7 +19,7 @@
 <body>
 
     <!-- HTML: The Button and Text Container -->
-    <button onclick="displayText()">The Magic Word<h6>tm</h6></button>
+    <button onclick="displayText()">The Magic Word&trade;</button>
     <div id="pneumonoultramicroscopicsilicovolcanoconiosis"></div>
 
     <!-- JavaScript: The logic -->
@@ -27,7 +27,7 @@
         function displayText() {
             // Create a new paragraph element with the text
             var newText = document.createElement("p");
-            newText.textContent = "Hello, world!"; // The text you want to print
+            newText.textContent = "pneumonoultramicroscopicsilicovolcanoconiosis"; // The text you want to print
 
             // Append the new text to the container div
             document.getElementById("text-container").appendChild(newText);
